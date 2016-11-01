@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jabez.tarc.lab3_1.MainActivity">
+    <item
+        android:title="@string/plus"
+        android:orderInCategory="100"
+        android:id="@+id/action_plus"
+        android:icon="@drawable/ic_action_plus"
+        app:showAsAction="always" />
+    <item
+        android:title="@string/minus"
+        android:orderInCategory="101"
+        android:id="@+id/action_minus"
+        android:icon="@drawable/ic_action_minus"
+        app:showAsAction="always" />
+    <item
+        android:title="@string/search"
+        android:orderInCategory="102"
+        android:id="@+id/actionSearch"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings" />
+</menu>
